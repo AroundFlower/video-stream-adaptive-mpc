@@ -17,3 +17,4 @@ sstate-cache/
 # OS
 .DS_Store
 Thumbs.db
+build/
