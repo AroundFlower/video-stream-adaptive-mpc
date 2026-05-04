@@ -1,0 +1,19 @@
+# Build artifacts
+build/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Yocto build artifacts (we only ship the layer, not the tmp/downloads)
+yocto-tmp/
+downloads/
+sstate-cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
